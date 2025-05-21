@@ -3,5 +3,6 @@ resource "aws_vpc" "gitvpc" {
   tags = {
     Name = "gitbase-vpc200"
     developer = "gitbase"
+    environment = "gitbase"
   }
 }
